@@ -1,2 +1,2 @@
 # FormularioValidacion
-Wellinton Peralta - Validación Formulario HTML5
+Wellinton Peralta - Validación Formulario - HTML5
