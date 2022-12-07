@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Contactame</title>
+    </head>
+    <body>
+        <h1> Formulario</h1><br>
+        <form action="">
+            <fieldset>
+                <label for="txtNombre">Nombre:</label><br>
+                <input type="text" name="txtNombre" value="" pattern="[A-Za-z]+" required><br>
+                <label for="txtApellido">Apellido:</label><br>
+                <input type="text" name="txtApellido" value="" pattern="[A-Za-z]+"required><br>
+                <label for="txtTelefono">Teléfono:</label><br>
+                <input minlength="10" maxlength="10" type="tel" name="txtTelefono" pattern="[0-9]+" required><br> 
+                <label for="txtCorreo">Correo:</label><br>
+                <input type="email" name="txtCorreo" value="" required><br>
+                <label for="txtClave">Clave:</label><br>
+                <input type="password" name="txtClave" value="" required><br>
+                <label for="txtCargo">Cargo:</label><br>
+                <select name="txtCargo" id="1">
+                    <option value="Presidente"> Presidente</option>
+                    <option value="Director">Director</option>
+                    <option value="Operador">Operador</option>
+                    <option value="Supervisor"> Supervisor</option>
+                    
+                </select>
+                <br><br>
+                <input type="submit" value="Enviar">
+                
+                
+                </fieldset>
+                </form>
+        
+    </body>
+</html>
